@@ -16,9 +16,10 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+    void scan(QString str);
     void init();
     void init2();
-    void scan(QString str);
+
     void reasoning();
     void Judge_last();
     void prin(int a,int b,int c = 0,int d = 0,int e = 0);

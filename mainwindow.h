@@ -19,7 +19,6 @@ public:
     void scan(QString str);
     void init();
     void init2();
-
     void reasoning();
     void Judge_last();
     void prin(int a,int b,int c = 0,int d = 0,int e = 0);
@@ -29,6 +28,8 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    QString gitHub = "https://github.com/duny31030/Production_System";
+    QString myBlog = "https://duny31030.top";
     QString savePath = ":/txt/1.txt";
     QString rst = "开始推理\n";
     QString scanStr = "";

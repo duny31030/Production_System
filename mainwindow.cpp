@@ -80,12 +80,12 @@ MainWindow::MainWindow(QWidget *parent) :
 
 void MainWindow::openGit()
 {
-    QString link = "https://github.com/duny31030";
+    QString link = gitHub;
     QDesktopServices::openUrl(QUrl(link));
 }
 void MainWindow::openBlog()
 {
-    QString link = "https://duny31030.top";
+    QString link = myBlog;
     QDesktopServices::openUrl(QUrl(link));
 }
 
